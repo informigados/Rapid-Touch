@@ -14,6 +14,6 @@ Features:
 
 Get Started:
 
-Explore Rapid Touch and contribute to its development on GitHub: Rapid Touch Theme
+Explore Rapid Touch and contribute to its development on GitHub.
 
 Join us in shaping the future of WordPress themes by contributing to Rapid Touch today!
