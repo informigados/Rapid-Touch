@@ -17,3 +17,5 @@ Get Started:
 Explore Rapid Touch and contribute to its development on GitHub.
 
 Join us in shaping the future of WordPress themes by contributing to Rapid Touch today!
+
+Note: Once we have a stable and improved theme, we plan to upload it for free use in the WordPress.org theme database. All contributors will have their names listed as contributors or collaborators.
