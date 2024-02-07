@@ -1,0 +1,178 @@
+/* Estilos do Título e Descrição do Site */
+.site-title {
+    text-align: center;
+    /* Adicione aqui estilos específicos para o título do site, se necessário */
+}
+
+.site-description {
+    text-align: center;
+    /* Adicione aqui estilos específicos para a descrição do site, se necessário */
+}
+
+/* Estilos do Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc; /* Linha divisória abaixo do menu */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    padding: 10px 15px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    min-height: 48px;
+    line-height: 28px;
+    /* Adicione aqui estilos específicos para os itens do menu */
+}
+
+/* Estilos do Título e Meta dos Artigos */
+.post-title {
+    /* Adicione aqui estilos específicos para o título dos artigos */
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 1em;
+    /* Adicione aqui estilos específicos para os metadados dos artigos */
+}
+
+.post-author {
+    /* Adicione aqui estilos específicos para o autor dos artigos */
+}
+
+.post-category {
+    /* Adicione aqui estilos específicos para a categoria dos artigos */
+}
+
+.post-tags {
+    /* Adicione aqui estilos específicos para as tags dos artigos */
+}
+
+/* Estilos dos Botões */
+.button {
+    background: #002FA7;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    /* Adicione aqui estilos específicos para os botões */
+}
+
+.button:hover {
+    background-color: #0047b3;
+    /* Adicione aqui estilos específicos para os botões ao passar o mouse */
+}
+
+/* Estilos da Caixa de Busca */
+.search-box {
+    display: inline-block;
+    /* Adicione aqui estilos específicos para a caixa de busca */
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Adicione aqui estilos específicos para o input da caixa de busca */
+}
+
+/* Estilos da Paginação */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc; /* Linha divisória acima da paginação */
+    border-bottom: 1px solid #ccc; /* Linha divisória abaixo da paginação */
+}
+
+.pagination .page-numbers {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    text-decoration: none;
+}
+
+.pagination .page-numbers.current {
+    background-color: #002FA7;
+    color: #fff;
+    border-color: #002FA7;
+}
+
+/* Estilos dos Posts na Página Inicial */
+.home-post {
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha divisória abaixo de cada post */
+    padding-bottom: 20px; /* Espaçamento entre os posts */
+    margin-bottom: 20px; /* Espaçamento entre os posts */
+}
+
+/* Estilos Gerais */
+html {
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto;
+    line-height: 1.5rem;
+    font-size: 24px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.8;
+}
+
+header, footer {
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    color: #00008B;
+    text-decoration: underline;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+a:hover,
+a:focus {
+    color: #FF0000;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.screen-reader-text {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
