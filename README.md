@@ -2,6 +2,11 @@
 
 A lightweight, responsive WordPress theme in development. It provides a simple foundation for custom sites, with a focus on front-end performance.
 
+[![WordPress](docs/assets/wordpress.svg)](https://wordpress.org/)
+[![PHP](docs/assets/php.svg)](index.php)
+[![License: MIT](docs/assets/license.svg)](LICENSE)
+[![DeepWiki](docs/assets/deepwiki.svg)](https://deepwiki.com/informigados/Rapid-Touch)
+
 ## ✨ Features
 
 - PHP templates for the main feed, pages, individual posts, and the 404 page.
