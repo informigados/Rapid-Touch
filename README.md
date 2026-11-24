@@ -1,21 +1,25 @@
-Rapid Touch is a lightweight, fast, and fully responsive WordPress theme designed to provide a solid foundation for various web projects. Built with speed and completeness in mind, this theme aims to deliver optimal performance while incorporating the latest technologies and best practices.
+# 🎨 Rapid Touch
 
-Features:
+A lightweight, responsive WordPress theme in development. It provides a simple foundation for custom sites, with a focus on front-end performance.
 
-- Lightweight and Fast: Rapid Touch prioritizes speed and efficiency, ensuring a seamless user experience and improved site performance.
+## ✨ Features
 
-- Fully Responsive: The theme adapts flawlessly to different screen sizes and devices, providing an optimal viewing experience across desktops, tablets, and smartphones.
+- PHP templates for the main feed, pages, individual posts, and the 404 page.
+- Separate header and footer menu locations.
+- Responsive navigation and a shared stylesheet.
 
-- Comprehensive Design: With attention to detail, Rapid Touch offers a comprehensive design that covers all essential aspects of a modern WordPress theme.
+## 🧪 Local testing
 
-- Optimized for PageSpeed: Leveraging the latest optimization techniques, Rapid Touch achieves high scores on PageSpeed Insights and other performance analysis tools.
+1. Copy the theme files into a `wp-content/themes/rapid-touch/` directory in a local WordPress installation.
+2. Add a [WordPress theme header](https://developer.wordpress.org/themes/core-concepts/main-stylesheet/#file-header) with a `Theme Name` field to [`style.css`](style.css) so WordPress can detect the theme.
+3. Activate it under **Appearance → Themes**. Assign the Header Menu and Footer Menu under **Appearance → Menus**.
+4. Test pages, posts, navigation, and the 404 page at desktop and mobile widths.
 
-- Collaborative Development: We welcome contributors to join us in refining and enhancing Rapid Touch on GitHub, making it a collaborative effort towards creating a robust and versatile WordPress theme.
+## 🤝 Contributing
 
-Get Started:
+Open an [issue](https://github.com/informigados/Rapid-Touch/issues) or submit a pull request. The project aims to publish a stable version in the WordPress.org Theme Directory and credit contributors there.
 
-Explore Rapid Touch and contribute to its development on GitHub.
+## 👥 Authors
 
-Join us in shaping the future of WordPress themes by contributing to Rapid Touch today!
-
-Note: Once we have a stable and improved theme, we plan to upload it for free use in the WordPress.org theme database. All contributors will have their names listed as contributors or collaborators.
+- [Alex Brito](https://github.com/alexbritodev)
+- [INformigados](https://github.com/informigados)
